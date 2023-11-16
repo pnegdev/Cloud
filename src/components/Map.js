@@ -9,13 +9,13 @@ const MapComponent = ({ apiKey, selectedLocation }) => {
 
     // Coordonnées par défaut (Point-E)
     let defaultCenter = {
-        lat: 14.696923,
-        lng: -17.456932,
+        lat: 14.696903746304837,
+        lng: -17.456929408884495,
     };
 
     // Coordonnées en fonction du lieu sélectionné
     if (selectedLocation === 'Yoff') {
-        defaultCenter = { lat: 14.75502, lng: -17.47500 };
+        defaultCenter = { lat: 14.75492231309928, lng: -17.47499987513097 };
     }
 
     return (
